@@ -1,2 +1,2 @@
 # rasa-tutorial
-CHatbot tutorial using Rasa
+Chatbot tutorial using Rasa (https://rasa.com/)
