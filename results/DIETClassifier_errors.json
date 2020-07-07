@@ -1,0 +1,69 @@
+[
+  {
+    "text": "We plan to build a sales bot to increase our sales by 500%.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 28,
+        "value": "sales bot",
+        "entity": "use_case"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "use_case",
+        "start": 25,
+        "end": 28,
+        "value": "bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "we plan to build a sales bot to increase our revenue by 100%.",
+    "entities": [
+      {
+        "start": 19,
+        "end": 28,
+        "value": "sales bot",
+        "entity": "use_case"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "use_case",
+        "start": 25,
+        "end": 28,
+        "value": "bot",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a insurance tool that consults potential customers on the best life insurance to choose.",
+    "entities": [
+      {
+        "start": 2,
+        "end": 16,
+        "value": "insurance tool",
+        "entity": "use_case"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "use_case",
+        "start": 2,
+        "end": 16,
+        "value": "insurance tool",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "use_case",
+        "start": 68,
+        "end": 77,
+        "value": "insurance",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

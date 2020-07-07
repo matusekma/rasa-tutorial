@@ -1,9 +1,16 @@
 {
-  "faq": {
+  "bye": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 16,
+    "support": 9,
+    "confused_with": {}
+  },
+  "contact_sales": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
     "confused_with": {}
   },
   "thank": {
@@ -13,11 +20,18 @@
     "support": 6,
     "confused_with": {}
   },
-  "bye": {
+  "faq": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 9,
+    "support": 16,
+    "confused_with": {}
+  },
+  "inform": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 29,
     "confused_with": {}
   },
   "greet": {
@@ -32,12 +46,12 @@
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 39
+    "support": 77
   },
   "weighted avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 39
+    "support": 77
   }
 }
