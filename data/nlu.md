@@ -27,6 +27,17 @@
 - Thanks for that
 - cheers
 
+## intent:yes
+- Sure
+- Yes
+- Of course
+- absolutely
+
+## intent:no
+- No
+- Never
+- Nope
+
 ## intent: faq/ask_channels
 - What channels of communication does rasa support?
 - what channels do you support?
