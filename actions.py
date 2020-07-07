@@ -55,6 +55,7 @@ class SalesForm(FormAction):
             tracker: Tracker,
             domain: Dict[Text, Any],
     ) -> List[Dict]:
+        dispatcher.utter_message(tracker.get_slot("business_email"))
         dispatcher.utter_message("Thanks for getting in touch, we’ll contact you soon")
         return []
 

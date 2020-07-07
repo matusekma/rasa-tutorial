@@ -19,6 +19,8 @@ pipeline:
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
+  - name: TwoStageFallbackPolicy
+    nlu_threshold: 0.8
   - name: MemoizationPolicy
   - name: KerasPolicy
   - name: MappingPolicy

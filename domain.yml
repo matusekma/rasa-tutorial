@@ -1,4 +1,5 @@
 intents:
+  - out_of_scope
   - greet: {triggers: action_greet}
   - bye
   - thank
@@ -7,6 +8,7 @@ intents:
   - inform
   - yes
   - no
+  - explain
 
 entities:
   - company
@@ -39,6 +41,10 @@ responses:
     - text: Sure, let's book a sales call!
   utter_still_sales:
     - text: Do you still want to talk about sales?
+  utter_explain_why_budget:
+    - text: We need to know your budget to recommend a subscription
+  utter_explain_why_email:
+    - text: We need your email so we can contact you
 
 actions:
   - respond_faq
@@ -54,12 +60,17 @@ slots:
     type: unfeaturized
   person_name:
     type: unfeaturized
-  budget:
+  use_case:
     type: unfeaturized
   business_email:
     type: unfeaturized
-  use_case:
+  budget:
     type: unfeaturized
+  requested_slot:
+    type: categorical
+    values:
+      - business_email
+      - budget
 #intents:
 #  - greet
 #  - goodbye
