@@ -45,6 +45,8 @@ responses:
     - text: We need to know your budget to recommend a subscription
   utter_explain_why_email:
     - text: We need your email so we can contact you
+  utter_out_of_scope:
+    - text: Sorry, I can’t handle that request.
 
 actions:
   - respond_faq
